@@ -1,39 +1,33 @@
-# Robot Framework Page Object Model Demo
+# Project Name #
 
-<br>
+Study Project: Automation Testing with Robot Framework using Python
 
-## Robot Framework Introduction
+# Author #
 
-[Robot Framework](http://robotframework.org) is a generic open source
-automation framework for acceptance testing, acceptance test driven
-development (ATDD), and robotic process automation (RPA). It has simple plain
-text syntax and it can be extended easily with libraries implemented using
-Python or Java.
+Le Tuan Anh
 
-Robot Framework is operating system and application independent. The core
-framework is implemented using [Python](http://python.org), supports both
-Python 2 and Python 3, and runs also on [Jython](http://jython.org) (JVM),
-[IronPython](http://ironpython.net) (.NET) and [PyPy](http://pypy.org).
-The framework has a rich ecosystem around it consisting of various generic
-libraries and tools that are developed as separate projects. For more
-information about Robot Framework and the ecosystem, see
-http://robotframework.org.
+# Completion Period # 
 
-Robot Framework project is hosted on GitHub where you can find source code,
-an issue tracker, and some further documentation. Downloads are hosted on PyPI, except
-for the standalone JAR distribution that is on Maven central.
+January 2022 - April 2022
 
-Robot Framework development is sponsored by [Robot Framework Foundation](http://robotframework.org/foundation).
+ # Description # 
 
-[GitHub](https://github.com/robotframework/robotframework)
+This project is an automation testing suite built using Robot Framework using Python to test the functionalities of DemoQA.com. It leverages the Page Object Model (POM) for efficient test organization and maintainability.
 
-[PyPI](https://pypi.python.org/pypi/robotframework)
+ # Technologies Used # 
 
-[Maven central](http://search.maven.org/#search%7Cga%7C1%7Ca%3Arobotframework)
+Robot Framework: Open-source framework for keyword-driven testing
 
-<br>
+Python: General-purpose programming language for test scripts
 
-## Installation
+Page Object Model (POM): Design pattern for structuring test code
+
+ # Scope # 
+
+The project focuses on automated testing of both UI (User Interface) elements and API endpoints of DemoQA.com. This allows for comprehensive validation of the application's behavior.
+
+
+# Installation # 
 
 1. Download [Python 3.12.1](https://www.python.org/downloads/release/python-3121/ "Python 3.12.1").
 2. Open installer and select option `Add Python 3.12.1 to PATH` then continute to install as default.
@@ -41,16 +35,7 @@ Robot Framework development is sponsored by [Robot Framework Foundation](http://
 4. Install dependencies package.
     `pip install -r requirements.txt`
 
-
-## Example
-
-Here, I have developed sample test cases for a sample web site [Demo QA Book Store](https://demoqa.com/books).
-
-This project is developed to demontrate robot framework with selenium and page object model. Besides, we also implement some test cases for API and integrate API in UI test cases for prepare/cleaning test data.
-
-<br>
-
-## File organization
+# Folder Structure # 
 ```
 Robot-Page-Object-Model-Demo/
 |- DemoQABookStore/                                               // Home folder for Demo QA Book Store automation project
@@ -72,9 +57,8 @@ Robot-Page-Object-Model-Demo/
 |- .gitignore                                                     // Excluded the unnecessary files in the repo
 |- README.md                                                      // This file
 ```
-<br>
 
-## Usage
+# Usage # 
 
 Starting from Robot Framework 3.0, tests are executed from the command line
 using the ``robot`` script or by executing the ``robot`` module directly
@@ -117,7 +101,7 @@ Generate allure report
 
 <br>
 
-## Error
+#  Error # 
 
 1. If got error 'cannot be loaded because running scripts is disabled on this system', open PowerShell with Run as Administrator and run command below:
      Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
@@ -127,7 +111,6 @@ Then type 'Y' and press Enter
 
 <br>
 
-## License
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/License_icon-mit-2.svg/2000px-License_icon-mit-2.svg.png" alt="MIT License" width="100" height="100"/> [MIT License](https://opensource.org/licenses/MIT)
+# Further Enhancements # 
 
-
+This README.md file provides a basic guide to get you started with the project. Feel free to customize and adapt it further based on your specific project structure and testing needs.
